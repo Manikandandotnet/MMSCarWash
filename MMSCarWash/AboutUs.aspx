@@ -1,0 +1,522 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AboutUs.aspx.cs" Inherits="MMSCarWash.AboutUs" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+<!--FONT Awasom CDN-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+<!-- Icon Font  link -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+ 
+
+<title>About Page</title>
+<link rel="icon" type="image/x-icon" class="rounded float-end" href="images\favicon.jpg" />
+
+<style>
+  .imghead{
+    position: relative;
+    margin-left: -120px;
+
+  }
+  .texthead{
+    position: absolute;
+    margin-left: 306px;
+    margin-top: -319px;
+  }
+</style>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+      
+        
+    
+    
+        <!-- Nav Bar Start-->
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <div class="container-fluid">
+
+<img src="images\CarLogo.png" class="navbar-brand" style="width: 5%;height: 5%;" alt="" />
+      
+        
+
+<ul class="nav nav-tabs">
+            
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.aspx">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="AboutUs.aspx">ABOUT US</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="ContactPage.aspx">CONTACT</a>
+            </li>
+
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" href="ProductPage.aspx" role="button" aria-expanded="false">PRODUCTS</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="ProductPage.aspx">Hatchback</a></li>
+                <li><a class="dropdown-item" href="ProductPage.aspx">Sedan</a></li>
+                <li><a class="dropdown-item" href="ProductPage.aspx">SUV</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="product.aspx">7-Str/Luxary</a></li>
+              </ul>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="ServicePage.aspx">SERVICES</a>
+            </li>
+            
+
+            
+            <li class="nav-item">
+              <a class="nav-link" href="BookingPage.aspx">BOOK NOW</a>
+            </li>
+        
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-person-circle"></i>ADMIN</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="LoginPage.aspx">LOGIN</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="RegisterPage.aspx">REGISTER</a></li>
+              </ul>
+            </li>
+
+
+
+
+          </ul>
+      
+        </div>
+
+
+
+ 
+    </nav>
+
+<!--Nav Bar End-->
+
+
+
+
+
+
+
+<!-- header code start -->
+
+<!-- 
+<div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+
+        <img src="images\headimage.jpg" style="width:100%; height: 30%;" alt="header image">
+
+        
+      </div>
+ 
+     
+    </div>
+      </div> -->
+
+      <div class="container position-relative">
+        <div class="position-relative top-0 start-0">
+            <img src="images\headimage.jpg" class="imghead"  alt="Snow" style="width:125%;">
+
+            <h1 class="position-absolute bottom-50 end-50">About Us</h1><br>
+            <br><br><h4 class="texthead">If you want to learn more about us, you’re in the right place. Read to learn how we managed to grow our business so fast.</h4>
+        </div>
+        
+      </div>
+
+
+
+
+
+
+<!-- header code end -->
+
+
+
+
+<!-- About Content Start -->
+<div class="container">
+  <div class="row">
+    <div class="col">
+      
+
+      <h1 class="text-warning">About Us</h1>
+      <hr>
+      <br>
+      <p>
+        Welcome! We are delighted to introduce ourselves to you.
+         I’m M. Selvakumar, and I’m accompanied by my brother,
+          M. Vinothkumar, as we set out on this entrepreneurial journey to carve our own path.
+           Our business came to life from our deep-rooted passion and unwavering determination.
+      </p>
+
+
+      <p>
+        With a strong foundation in the vibrant automobile industry, 
+        where we have made a name for ourselves in a renowned car dealership, 
+        we bring a wealth of expertise and experience to the table when it comes to all things automotive.
+         Our knowledge extends beyond the intricacies of cars themselves to encompass the various associated 
+         services,
+         ensuring comprehensive support for our esteemed customers.
+
+      </p>
+
+
+<p>
+
+
+
+  We are committed to delivering the best experience possible, 
+  tailored to your needs. Our goal is to provide top-notch service,
+   backed by our extensive knowledge and dedication, as we strive to exceed your expectations.
+   Thank you for visiting our website, and we look forward to serving you with excellence.
+
+</p>
+
+
+
+    </div>
+    <div class="col">
+
+
+<h1 class="text-warning">Our Core Values</h1>
+<hr>
+<br>
+
+<p>
+  At Mobile Car Spa, our core values drive us to achieve two primary objectives: 
+  delivering exceptional service and empowering our customers with a sustainable livelihood. 
+  We are dedicated to providing top-notch services that go beyond expectations,
+   ensuring that every customer experiences excellence in car care.
+
+</p>
+
+<p>
+  However, our commitment extends beyond our customers.
+   We believe in actively supporting our community and lending a helping hand whenever possible.
+    We strive to make a positive impact by offering assistance within our capabilities, 
+    contributing to the well-being and growth of the communities we serve.
+
+
+
+</p>
+<p>
+
+  With a strong focus on service excellence and community support, 
+  Mobile Car Spa is more than just a car care company.
+   We are a team dedicated to making a difference, one car and one community at a time.
+
+</p>
+
+    </div>
+  </div>
+</div>
+
+<!-- About Content end -->
+
+
+<!-- our Mission content Start -->
+
+
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col">
+
+      <div class="card">
+        <div class="card-body bg-light">
+          <h1 class="text-center text-warning">Our Mission</h1>
+      
+      
+          <p class="card-text">
+            At Mobile Car Spa, our mission is to revolutionize the car washing and detailing 
+            experience by offering convenient doorstep services in Chennai. We strive to provide our customers
+             with exceptional and reliable car care solutions, ensuring their vehicles receive the pampering they 
+             deserve. Through our skilled team of professionals and cutting-edge techniques, we aim to deliver 
+             top-notch cleaning, restoration, and protection services that enhance the aesthetics and longevity
+              of every vehicle we touch. With a strong commitment to customer satisfaction and environmental
+               sustainability, we are dedicated to exceeding expectations
+             and becoming the trusted name in mobile car spa services in Chennai.
+      
+      
+          </p>
+          
+        </div>
+      </div>
+      
+
+    
+    </div>
+  </div>
+</div>
+
+
+<!-- our Mission content End -->
+
+
+
+
+
+
+
+<!-- our Vision content Start -->
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col">
+
+      <div class="card">
+        <div class="card-body bg-light">
+          <h1 class="text-center text-warning">Our Vision</h1>
+      
+      
+          <p class="card-text">
+            At Mobile Car Spa, our vision is to be the foremost provider of doorstep car washing and detailing
+             services in Chennai. We are committed to setting the industry benchmark for excellence by revolutionizing
+              the car care experience. Our goal is to offer convenient and professional services right at
+               the customers’ doorsteps, eliminating the need for them to visit a physical car wash or
+                invest their valuable time and effort. With continuous innovation and a highly skilled team,
+             we aim to be the trusted choice for car owners in Chennai, enhancing the beauty and value of their vehicles.  
+          </p>
+          
+
+
+          <p>
+            In addition to our commitment to customer satisfaction,
+             we prioritize environmental sustainability. We strive to reduce our ecological footprint by implementing
+              eco-friendly practices such as water conservation techniques and the use of environmentally 
+              friendly products. By offering top-notch services while promoting a greener approach to car care, 
+              we aim to contribute significantly to the preservation of the environment. At Mobile Car Spa,
+               our vision is to transform the car care industry, providing unparalleled convenience, 
+            excellence, and environmental responsibility to our valued customers in Chennai.
+
+
+          </p>
+        </div>
+      </div>
+      
+
+    
+    </div>
+  </div>
+</div>
+
+
+<!-- our Vision content End -->
+
+
+
+
+
+
+
+
+
+<!--Footer Start-->
+
+<footer class="bg-dark text-white pt-5 pb-4 mt-5">
+
+  <div class="container text-center text-md-left">
+  <div class="row text-center text-md-left">
+  <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+  <h5 class="text-uppercase mb-4 font-weight-bold text-warning">About Us</h5>
+  <hr class="mb-4">
+  <p>
+    Welcome! We are delighted to introduce ourselves to you. I’m M. Selvakumar, 
+    and I’m accompanied by my brother, M. Vinothkumar, as we set out on this entrepreneurial journey to carve our own path. 
+    Our business came to life from our deep-rooted passion and unwavering determination.
+  </p>
+  
+  </div>
+  
+  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Services</h5>
+    <hr class="mb-4">
+    <p>
+    <a href="ServicePage.aspx" class="text-white text-decoration-none">Door Step Car Wash</a>
+    </p>
+    
+    <p>
+      <a href="ServicePage.aspx" class="text-white text-decoration-none">Car Wash and Wax</a>
+      </p>
+      
+      <p>
+        <a href="ServicePage.aspx" class="text-white text-decoration-none">complete Car Spa</a>
+        </p>
+        
+          
+  
+  </div>
+    
+  
+  
+  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
+    <hr class="mb-4">
+    <p>
+    <a href="ProductPage.aspx" class="text-white text-decoration-none">Hatchback</a>
+    </p>
+    
+    <p>
+      <a href="ProductPage.aspx" class="text-white text-decoration-none">Sedan</a>
+      </p>
+      
+      <p>
+        <a href="ProductPage.aspx" class="text-white text-decoration-none">SUV</a>
+        </p>
+        
+        <p>
+          <a href="ProductPage.aspx" class="text-white text-decoration-none">7 STR/Luxary</a>
+          </p>
+          
+          <p>
+            <a href="ProductPage.aspx" class="text-white text-decoration-none">MCS Car Spa Packages</a>
+            </p>
+            
+            <p>
+              <a href="ProductPage.aspx" class="text-white text-decoration-none">MCS Annual Packages</a>
+              </p>
+              
+  </div>
+  
+  
+  
+  
+  
+  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+    <hr class="mb-4">
+    
+    <p>
+      <i class="bi bi-house-fill mr-4"></i>No. 1o, Vembuli amman koil street, Perungudi, Chennai – 600 096.  
+      </p>
+      
+      <p>
+        <i class="bi bi-envelope-at-fill mr-3"></i>mobilespa@gmail.com 
+  
+        </p>
+        
+        <p>
+          <i class="bi bi-telephone-forward-fill mr-3"></i>1234567890 
+          </p>
+          
+          <p>
+            <i class="bi bi-printer-fill mr-3"></i>+013 618 096.
+              </p>
+            
+                      
+  </div>
+  
+  </div>
+  
+  <hr class="mb-4">
+  <div class="row align-items">
+  <div class="col-md-7 col-lg-8">
+  
+    <p>CopyRight @2024 All Right Reserved By:
+  <a href="#" class="text-decoration-none">
+    <strong class="text-warning">Manikandan.M</strong>
+  </a>
+  </p>
+  </div>
+  
+  <div class="col-md-5 col-lg-4">
+  
+  <div class="text-center text-md-right">
+  
+    <ul class="list-unstyled list-inline">
+    
+      <li class="list-inline-item">   
+  <a href="#" class="btn-floating btn-sm text-white fs-4"><i class="bi bi-facebook"></i>
+  
+  </a>
+      </li>
+    
+    
+    
+      <li class="list-inline-item">   
+        <a href="#" class="btn-floating btn-sm text-white fs-4"><i class="bi bi-twitter-x"></i>
+        
+        </a>
+            </li>
+    
+            
+            <li class="list-inline-item">   
+              <a href="#" class="btn-floating btn-sm text-white fs-4"><i class="bi bi-linkedin"></i>
+              
+              </a>
+                  </li>
+    
+                  
+                  <li class="list-inline-item">   
+                    <a href="#" class="btn-floating btn-sm text-white fs-4"><i class="bi bi-youtube"></i>
+                    
+                    </a>
+                        </li>
+    
+                        
+                        <li class="list-inline-item">   
+                          <a href="#" class="btn-floating btn-sm text-white fs-4"><i class="bi bi-whatsapp"></i>
+                          
+                          </a>
+                              </li>
+                            
+    
+    
+    </ul>
+  
+  </div>
+  </div>
+  
+  </div>
+  
+  </div>
+  </footer>
+  
+  
+  <!--Footer End-->
+  
+    
+    
+    
+        <!-- Optional JavaScript; choose one of the two! -->
+    
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        -->
+    
+    
+    
+    
+    
+    
+    
+    </form>
+</body>
+</html>
